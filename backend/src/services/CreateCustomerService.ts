@@ -22,8 +22,6 @@ class CreateCustomerService {
         })
 
         return customer
-
-
     }
 }
 
