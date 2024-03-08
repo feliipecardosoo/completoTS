@@ -7,7 +7,7 @@ class ListCustomerController {
 
         const listCustomerService = new ListCustomerService()    
         
-        const customers = await listCustomerService.execute
+        const customers = await listCustomerService.execute()
 
         reply.send(customers)
 
