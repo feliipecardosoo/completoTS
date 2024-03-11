@@ -34,7 +34,8 @@ export default function App() {
       name: nameRef.current?.value,
       email: emailRef.current?.value
     })
-    console.log(response.data)
+    nameRef.current.value = ''
+    emailRef.current.value = ''
     loadCustomers()
   }
 
